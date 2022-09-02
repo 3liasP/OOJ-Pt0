@@ -74,7 +74,7 @@ täyttää niillä `xSize` x `ySize` -kokoinen taulukko.
 Laadi metodiin toiminnallisuus, joka lukee käyttäjältä niin monta 
 kokonaislukua, että edellä mainittu taulukko saadaan täyteen. Jos syöte 
 ei ole luku, pyydetään lukua uudelleen. Palauta luvut metodista `int`-tyyppisenä taulukkona (`Array`). 
-Taulukon koon tulee vastata metodille parametrinä annattua kokoa. 
+Taulukon koon tulee vastata metodille parametrinä annettua kokoa. 
 
 Kutsu luomaasi metodia `main`-metodissa ja anna sille syötteeksi tehtävässä 
 2 luetut luvut. Jos et ole tehnyt tehtävää 2, anna syötteeksi kaksi satunnaista, 
@@ -84,7 +84,7 @@ itse keksimääsi lukua. Talleta paluuarvo muuttujaan.
 
 - metodi luotu oikein ja sitä käytetään `main`-metodissa oikein, 1 piste
 - syöte luetaan oikein ja luodun taulukon koko on oikein, 1 piste
-- virhetilanteet käsitellään (luetttu syöte ei ole kokonaisluku tai arvo on < 1), 1 piste
+- virhetilanteet käsitellään (luettu syöte ei ole kokonaisluku tai arvo on < 1), 1 piste
 - luetut merkkijonot muunnetaan oikein kokonaisluvuiksi, 1 piste
 - yhteensä: 4 pistettä
 
@@ -117,7 +117,7 @@ Tee Main-luokkaan uusi metodi nimeltään `printArray`. Metodi ottaa parametrina
 merkkijonotyyppisen taulukon. Tulosta metodissa syötteenä saatu taulukko taulukkomuotoon. 
 Sarakkeet tasataan oikealle.
 
-Jos syötteenä saadaan 4x5-taulukko, tulee tulosteen muotoilun näytää esimerkiksi tältä:
+Jos syötteenä saadaan 4x5-taulukko, tulee tulosteen muotoilun näyttää esimerkiksi tältä:
 ```
  1 456 6 5678 23
 23  22 6    2  2
@@ -125,7 +125,7 @@ Jos syötteenä saadaan 4x5-taulukko, tulee tulosteen muotoilun näytää esimer
 55   3 8    3  2
 ```
 
-Kutsu luomaasi metodia `main`-metodissa. Anna metodille argumentiksi Tehtävässä 3 luettu taulukko.
+Kutsu luomaasi metodia `main`-metodissa. Anna metodille argumentiksi tehtävässä 3 luettu taulukko.
 Jos et ole tehnyt tehtävää 3, anna argumentiksi muuttuja `teht5Array`.
 
 
