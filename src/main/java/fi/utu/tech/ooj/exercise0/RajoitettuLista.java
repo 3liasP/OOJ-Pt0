@@ -27,11 +27,14 @@ public class RajoitettuLista {
 	/**
 	 * Palauttaa listan sisältämien alkioiden summan.
 	 */
-	public void laskeSumma() {
+	public int laskeSumma() {
 		// Toteuta tämä
-
+		int summa = 0;
+		for(int luku : luvut){
+			summa += luku;
+		}
+		return summa;
 		// HUOM! pitäisi myös palauttaa int eikä void
-
 	}
 	
 	/**
@@ -41,9 +44,15 @@ public class RajoitettuLista {
 	 * @param luku Lisättävä luku
 	 * @return True, jos luku lisättiin listaan. False, jos lukua ei lisätty.
 	 */
-	public void lisaa(int luku) {
+	public boolean lisaa(int luku) {
 		// Toteuta tämä
-
+		boolean success = false;
+		int summa = laskeSumma();
+		if(summa + luku <= annaMaksimiSumma()) {
+			luvut.add(luku);
+			success = true;
+		}
+		return success;
 		// HUOM! pitäisi myös palauttaa boolean eikä void
 	}
 }
